@@ -1,1 +1,1 @@
-FROM rocker/tidyverse:latest
+FROM islasgeci/base:latest
