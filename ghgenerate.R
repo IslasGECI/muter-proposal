@@ -1,5 +1,5 @@
 proposal<-"Muter"
-proposal.file<-"isc-proposal.Rmd"
+proposal.file<-"muter-proposal.Rmd"
 author<-"Evaristo Rojas"
 
 rmarkdown::render(proposal.file, output_format="html_document",
