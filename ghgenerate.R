@@ -1,6 +1,6 @@
-proposal<-"Boilerplate ISC Proposal"
-proposal.file<-"isc-proposal.Rmd"
-author<-"Steph Locke"
+proposal<-"Muter"
+proposal.file<-"muter-proposal.Rmd"
+author<-"Evaristo Rojas"
 
 rmarkdown::render(proposal.file, output_format="html_document",
                   output_dir="out", quiet=TRUE)
