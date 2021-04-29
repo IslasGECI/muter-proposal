@@ -17,4 +17,4 @@ jobs:
     - name: Construye imagen
       run: docker build --tag islasgeci .
     - name: Genera reporte
-      run: docker run islasgeci make out/muter-proposal.pdf
+      run: docker run --volume ${PWD}:/workdir islasgeci make out/muter-proposal.pdf
