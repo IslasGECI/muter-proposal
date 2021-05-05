@@ -1,4 +1,4 @@
-proposal<-"Muter"
+proposal<-"muter: Mutation testing framework for R"
 proposal.file<-"muter-proposal.Rmd"
 author<-"Evaristo Rojas"
 
