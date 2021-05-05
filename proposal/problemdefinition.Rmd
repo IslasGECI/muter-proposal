@@ -10,4 +10,8 @@ It is important to cover:
  - [ ] Why it should be tackled
 -->
 
+Saber que las pruebas son resistentes a mutaciones aumentará la cnfianza que ellas generan. Esta
+confianza nos quitará el miedo de modificar el código, lo que se verá reflejado en una mayor
+colaboración.
+
 

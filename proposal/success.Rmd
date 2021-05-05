@@ -4,19 +4,24 @@ Projects should have a definition of done that is measurable, and a thorough und
 -->
 
 ## Definition of done
-<!-- 
-What does success look like? 
--->
+Al terminar este proyecto podremos instalar muter con la instrucción `install.packages('muter')`.
+Esto permitirá a la comunidad de usuarios de R agregar muter al flujo de desarrollo _software_
+y a los sistemas de CI/CD, para verificar la resistencia de las pruebas a mutaciones de manera
+automática.
+
+El uso de muter complementará al uso de testthat y lintr para asegurar la calidad y mentenibilidad
+del software desarrollado en R.
 
 ## Measuring success
-<!-- 
-How will we know when success is achieved, what markers can we use along the way 
--->
+- El flujo continuo de entregas de versiones estables (_features_ pequeñas que lleguen a la misma
+tasa a la rama _develop_)
+- El uso de muter por la comunidad de R (descargas, reportes de _bugs_ y peticiones de mejora)
+- Número de estrellas, _pull reques_ e _issues_
+- Número de patrones de mutaciones implementados
 
-## Future work
-<!-- 
-How could this be extended / developed in the future by yourself and/or the community in general?
--->
+## Future work - El diseño del módulo permitirá agregar más patrones de mutación será de una manera
+amigable. - Desarrollaremos los _template_ para integrar muter a los sistemas de CI/CD más populares
+del mercado.
 
 ## Key risks
 <!-- 
